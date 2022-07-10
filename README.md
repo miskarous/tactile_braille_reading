@@ -21,5 +21,6 @@ Scanning | Sample-based | Event-based
 1. Install [python](https://www.python.org/) and [pytorch](https://pytorch.org/)
 2. Download the [dataset](https://zenodo.org/record/6556273) from Zenodo
 3. Extract the files and add them in the main folder of this repository
-4. Run the jupiter notebook for the [feedforawrd SNN](https://github.com/event-driven-robotics/tactile_braille_reading/blob/main/notebooks/braille_reading_ffsnn.ipynb) and/or the [recurrent SNN](https://github.com/event-driven-robotics/tactile_braille_reading/blob/main/notebooks/braille_reading_rsnn.ipynb)
-5. If you want to use differently encoding thresholds run the [this file](https://github.com/event-driven-robotics/tactile_braille_reading/blob/main/utils/event_transform.py) with your personal parameters again and change the data loading in the notebooks accordingly
+4. Download the [Izhikevich Encoded data] (https://drive.google.com/file/d/1dBH9F0OoTCknMKkNM15z5nytaI0Szhrt/view?usp=sharing) and put it in a 'data' folder in the 'notebooks' directory
+5. Run the jupiter notebook for the [recurrent SNN using the Izhikevich Neuron Model](https://github.com/miskarous/tactile_braille_reading/blob/main/notebooks/braille_reading_rsnn_izhi_Loihi.ipynb)
+
